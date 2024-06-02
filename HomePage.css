@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-color: #3f3737;
+    color: #fff;
+    text-align: center;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDDXQFC9GtHeycJKUMZ5tbwkguAx3hkMcD3w&s"); */
+    padding: 50px 20px;
+  }
+  
+  .search-bar {
+    margin-top: 20px;
+  }
+  
+  .search-bar input[type="search"] {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+  }
+  
+  .service-categories ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-categories ul li {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .service-categories ul li img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+  }
+  
